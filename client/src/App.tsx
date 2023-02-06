@@ -142,8 +142,8 @@ const App = () => {
                 >
                     PROJECTS
                 </h1>
-                <div className="flex flex-col gap-8 md:flex-row md:gap-16 xl:w-4/5">
-                    <div className="group overflow-hidden rounded-lg">
+                <div className="flex flex-col items-center gap-8 md:flex-row md:gap-16">
+                    <div className="group overflow-hidden rounded-lg md:w-1/2">
                         <a href="https://palettepro.digital/" target="_blank">
                             <img
                                 src={PalettePro}
@@ -152,7 +152,7 @@ const App = () => {
                             />
                         </a>
                     </div>
-                    <div className="flex flex-col gap-6">
+                    <div className="flex flex-col gap-6 md:w-1/2">
                         <h2 className="text-2xl font-medium uppercase tracking-wider md:text-left">
                             Palette Pro
                         </h2>
