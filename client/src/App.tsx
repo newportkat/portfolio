@@ -117,22 +117,43 @@ const App = () => {
                         new technologies.
                     </p>
                 </div>
-                <h2 className="text-xl tracking-wide text-blue-400">
-                    I Enjoy Working With:
-                </h2>
-                <div className="flex gap-8 tracking-wide">
-                    <ul className="leading-relaxed">
-                        <li>- HTML</li>
-                        <li>- CSS</li>
-                        <li>- Tailwind</li>
-                        <li>- Sass</li>
-                    </ul>
-                    <ul className="leading-relaxed">
-                        <li>- Javascript</li>
-                        <li>- Typescript</li>
-                        <li>- React</li>
-                        <li>- Figma</li>
-                    </ul>
+                <div className="flex flex-col gap-8 sm:flex-row sm:gap-36">
+                    <div className="flex flex-col gap-2">
+                        <h2 className="text-xl tracking-wide text-blue-400">
+                            I'm Familiar Working With:
+                        </h2>
+                        <div className="flex gap-8 tracking-wide">
+                            <ul className="leading-relaxed">
+                                <li>- HTML</li>
+                                <li>- CSS</li>
+                                <li>- Tailwind</li>
+                                <li>- Sass</li>
+                                <li>- Node.js</li>
+                            </ul>
+                            <ul className="leading-relaxed">
+                                <li>- Javascript</li>
+                                <li>- Typescript</li>
+                                <li>- React</li>
+                                <li>- Figma</li>
+                                <li>- Wordpress</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-2">
+                        <h2 className="text-xl tracking-wide text-blue-400">
+                            I've Experimented With:
+                        </h2>
+                        <div className="flex gap-8 tracking-wide">
+                            <ul className="leading-relaxed">
+                                <li>- Python</li>
+                                <li>- Nginx</li>
+                            </ul>
+                            <ul>
+                                <li>- Strapi</li>
+                                <li>- Redux</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section className="flex flex-col items-center justify-center gap-8 bg-blue-200 px-8 py-16 text-center text-gray-700 dark:bg-blue-900 dark:text-gray-200 md:gap-12 md:px-12">
