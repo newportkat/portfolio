@@ -121,7 +121,7 @@ const App = () => {
                 <div className="flex flex-col gap-8 sm:flex-row sm:gap-36">
                     <div className="flex flex-col gap-2">
                         <h2 className="text-xl tracking-wide text-blue-400">
-                            I'm Love Working With:
+                            I Love Working With:
                         </h2>
                         <div className="flex gap-8 tracking-wide">
                             <ul className="leading-relaxed">
